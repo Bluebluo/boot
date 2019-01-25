@@ -6,7 +6,7 @@
                 <pattern>%d{ISO8601}|%level|%thread|%c{1.}|%L|%msg%n</pattern>
             </PatternLayout>
         </Console>
-        <RollingFile name="file" filePattern="/usr/local/qhapp/applogs/outqry/outqry_business_%d{yyyyMMdd}_%i.log" immediateFlush="true">
+        <RollingFile name="file" filePattern="E:/logs/applogs/outqry_business_%d{yyyyMMdd}_%i.log" immediateFlush="true">
             <PatternLayout>
                 <pattern>%d{ISO8601}|%level|%thread|%c{1.}|%L|%msg%n</pattern>
             </PatternLayout>

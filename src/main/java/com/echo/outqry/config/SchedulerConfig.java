@@ -27,7 +27,8 @@ public class SchedulerConfig {
         trigger.setJobDetail(jobDetail);
         trigger.setRepeatInterval(10000);
         trigger.setRepeatCount(SimpleTrigger.REPEAT_INDEFINITELY);
-        return trigger;
+        //return trigger;
+        return null;
     }
 
 }
